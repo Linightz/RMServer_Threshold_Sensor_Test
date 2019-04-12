@@ -18,7 +18,7 @@ Ambient Temp,
 CPU DTS, 
 SysBrd 12V 5V 3.3V, 
 CMOS Battery, 
-Fan N Tach
+Fan N Tach. 
 Use of other sensors will result in test incomplete.
 
 This script uses OOB only, please have the SUT BMC IP ready and run the script on a test client.
