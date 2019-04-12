@@ -3,7 +3,7 @@ The automation of sensor testing of those with threshold triggers on rack-mount 
 
 Written by Kevin SJ Huang 2019/1/29
 
-## Script usage: $0 <Sensor_Name> <LAN_IP> <BMC_IP> <BMC_USER> <BMC_PWD>
+## Script usage: ./Thres_Sensor_Test.sh <Sensor_Name> <LAN_IP> <BMC_IP> <BMC_USER> <BMC_PWD>
 
 Missing any of the above parameter will result in test failures.
 If sensor name contains spaces, use double quotes or it will be errors.
