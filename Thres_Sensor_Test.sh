@@ -20,6 +20,7 @@
 ### If sensor name contains spaces, use double quotes or it will be errors.
 ### Make sure your LAN port is set to reconnect automatically after reboot.
 
+
 ftp="10.32.37.19"
 ftpusr="ESQ900"
 ftppwd="1234"
@@ -27,9 +28,6 @@ ftppwd="1234"
 BMC_IP=$3
 BMC_USER=$4
 BMC_PWD=$5
-OS_IP=$6
-OS_USER=$7
-OS_PWD=$8
 
 # Change here if your SUT login info is different
 SUT_USER="root"
