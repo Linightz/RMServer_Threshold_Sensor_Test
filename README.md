@@ -11,11 +11,12 @@ Make sure your LAN port is set to reconnect automatically after reboot.
 This script is designed to run on RHEL7.
 
 This script is designed to test the following sensor threshold ONLY:
-Ambient Temp
-CPU DTS
-SysBrd 12V 5V 3.3V
-CMOS Battery
+Ambient Temp, 
+CPU DTS, 
+SysBrd 12V 5V 3.3V, 
+CMOS Battery, 
 Fan N Tach
+
 Use of other sensors will result in test incomplete.
 
 This script uses OOB only, please have the SUT BMC IP ready and run the script on a test client.
